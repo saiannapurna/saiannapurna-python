@@ -1,0 +1,8 @@
+###SWAPPING WITHOUT 3RD VARIABLE
+a=100
+b=20
+print("Initially a =",a,"and b =",b)
+a=a+b
+b=a-b
+a=a-b
+print("After swapping a =",a,"b =",b)
