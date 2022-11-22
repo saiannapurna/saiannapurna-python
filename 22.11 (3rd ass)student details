@@ -1,0 +1,15 @@
+###READ STUDENT'S DATA
+sno=input("Enter student roll no: ")
+name=input("Enter student name : ")
+gen=input("Enter student's gender : ")
+group=input("Enter group name: ")
+add=input("enter student's address : ")
+pn=input ("enter the phone number : ")
+
+print("THE DETAILS OF STUDENT ARE\nS:NO",sno)
+print("NAME",name)
+print("GENDER",gen)
+print("GROUP",group)
+print("ADDRESS",add)
+print("PHONE NUMBER",pn)
+
