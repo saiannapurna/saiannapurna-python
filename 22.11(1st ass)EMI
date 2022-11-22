@@ -1,0 +1,8 @@
+###calculate EMI
+p=int(input("enter principal amouint :"))
+t=int(input("enter time period:"))
+r=int(input("enter rate of interest: "))
+SI=(p*t*r)/100
+EMI=(p+SI)/t*12
+
+print("EMI IS ",EMI)
