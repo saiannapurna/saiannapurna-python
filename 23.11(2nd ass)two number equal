@@ -1,0 +1,7 @@
+###if two number are equal
+a=89
+b=98
+if(a==b):
+   print("a and b are equal")
+else :
+    print("a and b are not equal")
