@@ -1,0 +1,15 @@
+#STUDENT PASS OR FAIL
+name=input("enter name of student ")
+sno=int(input("enter student number "))
+grp=input("enter group of the student ")
+s1=int(input("enter marks of subject 1 "))
+s2=int(input("enter marks of subject 2 "))
+s3=int(input("enter marks of subject 3 "))
+print("***************************")
+print("The name of the student : ",name)
+print("SNO of the student : ",sno)
+print("Group of the student : ",grp)
+if (s1>35 and s2>35 and s3>35):
+    print("/////\n%s has passed"%name)
+else:
+    print("%s has failed"%name)
