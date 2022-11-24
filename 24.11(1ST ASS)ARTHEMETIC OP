@@ -1,0 +1,10 @@
+### PRINT NUMBERS USING ARTHEMETIC OPERATORS
+a=int(input("enter a "))
+b=int(input("enter b "))
+print("addition of a and b is ",a+b)
+print("subtraction of a and b is ",a-b)
+print("multiplication of a and b is ",a*b)
+print("division of a and b is ",a/b)
+print("exponentation of a and b is ",a**b)
+print("floor division of a and b is ",a//b)
+print("modular divisiob of a and b is ",a%b)
