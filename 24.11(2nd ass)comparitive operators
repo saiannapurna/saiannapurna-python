@@ -1,0 +1,8 @@
+### PRINT NUMBERS USING RELATIONAL OPERATORS
+a=int(input("enter a "))
+b=int(input("enter b "))
+print(a==b)
+print(a>b)
+print(a>=b)
+print(a<b)
+print(a<=b)
