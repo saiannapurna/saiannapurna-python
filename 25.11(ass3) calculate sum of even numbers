@@ -1,0 +1,7 @@
+### calculate sum of even numbers
+temp=0
+l=[1,2,3,4,8,6]
+for i in l:
+    if(i%2==0):
+        temp=temp+i    
+print(temp)
