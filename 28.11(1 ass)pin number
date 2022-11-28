@@ -1,0 +1,8 @@
+## CHECK PIN NUMBER
+a=int(input())
+pin=int(input())
+if(a==pin):
+    print("CONTINUE THE TRANSACTIIONS")
+else :
+    print("INCORRECT PIN NUMBER,PLEASE TRY AGAIN")
+    
