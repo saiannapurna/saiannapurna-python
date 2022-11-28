@@ -1,0 +1,8 @@
+#bank details
+balance=int(input("balance = "))
+credam=int(input("enter amount "))
+print("CREDITED AMOUNT =",credam)
+mainbalance=credam+balance
+print("MAIN BALANCE=",mainbalance)
+
+    
