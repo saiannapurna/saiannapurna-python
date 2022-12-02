@@ -1,0 +1,35 @@
+#eligibility to vote way 1
+
+def e_vote(a):
+    if a>=18:
+        print("Is eligible to vote")
+    else:
+        print("Is not eligible to vote")
+p=int(input("enter the age : "))
+e_vote(p)
+
+#eligibility to vote way 2
+"""
+def evote(a):
+    if a>=18 :
+        return "eligible to vote"
+    else:
+        return "not eligible to vote "
+a=int(input("enter the age : "))
+x=evote(a)
+print(x)
+"""
+#eligible  for vote way 3
+"""
+def evote(a):
+    if a>=18:
+        return True
+    else:
+        return False
+x=int(input("enter age : "))
+if (evote(x)):
+    print("the person's age is",x,"so he is eligible to vote ")
+else:
+    print("the person's age is",x,"so he is not eligible to vote")
+
+"""
