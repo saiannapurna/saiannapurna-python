@@ -1,0 +1,34 @@
+#biggest of 2 numbers way 1
+"""
+def big2(a,b):
+    if a>b:
+        print("a is bigger number")
+    else:
+        print("b is bigger number")
+p=int(input())
+q=int(input())
+big2(p,q)
+"""
+# biggest of 2 way big2
+"""def big2(a,b):
+    if a>b :
+        return a
+    else:
+        return b
+a=int(input())
+b=int(input())
+x=big2(a,b)
+print(x,"is big")
+"""
+#big of 2 numbers way 3
+def big_2(a,b):
+    if a>b:
+        return True
+    else:
+        return False
+a=int(input())
+b=int(input())
+if (big_2(a,b)):
+    print(a,"is big")
+else:
+    print(b,"is big")
