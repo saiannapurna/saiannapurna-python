@@ -1,0 +1,16 @@
+#difference of largest and smallest numbers of given values
+n=int(input("enter number of values : "))
+fir=int(input("enter the number :"))
+lar=fir
+small=fir
+i=1
+while(i<n):
+    num=int(input("enter the number :"))
+    if(num>lar):
+        lar=num
+    elif(num<small):
+        small=num
+    i=i+1
+print("biggest number is ",lar)
+print("smallest number is",small)  
+print("The difference of numbers is",lar-small)
