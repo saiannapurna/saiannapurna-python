@@ -1,0 +1,13 @@
+#If a number is palindrome or not
+n=int(input("enter the number : "))
+sum=0
+i=10
+h=n
+while(n>0):
+    m=n%10
+    sum=(sum*i)+m
+    n=n//10
+if(h==sum):
+    print("The number is palindrome")
+else:
+    print("It is not a palindrome")
