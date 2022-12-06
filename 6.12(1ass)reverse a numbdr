@@ -1,0 +1,10 @@
+#reverse a number
+n=int(input("enter the number : "))
+i=10
+sum=0
+h=n
+while(n>0):
+    m=n%10
+    sum=(sum*i)+m
+    n=n//10
+print("the reverse number of",h,"is", sum)
