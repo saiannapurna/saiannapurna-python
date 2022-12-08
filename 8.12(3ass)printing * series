@@ -1,0 +1,7 @@
+#printing of * series
+m=int(input("enter number of rows"))
+n=int(input("enter number of coloumns"))
+for i in range(0,n):
+    for j in range(0,m-i):
+        print("*",end=" ")
+    print()
