@@ -1,0 +1,23 @@
+from tkinter import *
+w=Tk()
+w.title("Student Application")
+Label(w,text="Student Id").grid(row=0)
+Label(w,text="Student Name ").grid(row=1)
+Label(w,text="Father Name ").grid(row=2)
+Label(w,text="Mother Name  ").grid(row=3)
+Label(w,text="Group").grid(row=4)
+Label(w,text="Phone number").grid(row=5)
+Label(w,text="Email id").grid(row=6)
+Entry(w).grid(row=0,column=1)
+Entry(w).grid(row=1,column=1)
+Entry(w).grid(row=2,column=1)
+Entry(w).grid(row=3,column=1)
+Entry(w).grid(row=4,column=1)
+Entry(w).grid(row=5,column=1)
+Entry(w).grid(row=6,column=1)
+Button(w,text="Login").grid(row=8,column=0)
+Button(w,text="Cancel").grid(row=8,column=1)
+mainloop()
+
+
+
