@@ -1,0 +1,8 @@
+
+n = int(input())
+arr = list(map(int, input().split()))
+s=set(arr)
+m=list(s)
+m.sort(reverse=True)
+print(m[1])
+    
