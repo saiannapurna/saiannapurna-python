@@ -1,0 +1,9 @@
+#sorting ()
+m=[]
+dist=int(input("enter number of districts : "))
+for i in range(dist):
+    n=input()
+    m.append(n)
+m.sort()
+print(m)
+         
