@@ -1,0 +1,15 @@
+#separating positives and negatives
+n=int(input())
+l=list(map(int,input().split()))
+print(l)
+pos=[]
+neg=[]
+for i in range(0,n):
+        if(l[i]>=0):
+           pos.append(l[i])
+        elif(l[i]<0):
+            neg.append(l[i])
+print("positive list is",pos)
+print("negative list is",neg)
+print("after separating positives and negatives",pos+neg)
+print("after separating positives and negatives",neg+pos)
