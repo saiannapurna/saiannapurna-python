@@ -1,0 +1,15 @@
+#even and odd list
+n=int(input())
+l=list(map(int,input().split()))
+print(l)
+ev=[]
+od=[]
+for i in range(0,n):
+        if(l[i]%2==0):
+           ev.append(l[i])
+        else:
+            od.append(l[i])
+print("even list is",ev)
+print("odd list is",od)
+print("separating odd and even",ev+od)
+
