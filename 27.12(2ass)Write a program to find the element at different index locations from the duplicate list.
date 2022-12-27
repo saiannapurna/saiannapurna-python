@@ -1,0 +1,15 @@
+#Write a program to find the element at different index locations from the duplicate list.
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+flag=0
+cnt=0
+for i in range(len(l)):
+    if(x==l[i]):
+        flag=1
+        print(i,end=" ")
+print()
+if(flag==1):
+    print(x,"is found")
+else:
+    print(x,"is not found")
