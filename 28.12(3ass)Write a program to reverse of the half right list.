@@ -1,0 +1,19 @@
+#Write a program to reverse of the half right list.
+n=int(input())
+l=[]
+e=[]
+low=0
+high=n
+mid=(low+high)//2
+for i in range(mid):
+    m=int(input())
+    l.append(m)
+for i in range(mid,n):
+        o=int(input())
+        e.append(o)
+e.reverse()
+print("mid value is",mid)
+print("initial list",l)
+print("after mid list",e)
+print("after sorting list",l+e)
+
