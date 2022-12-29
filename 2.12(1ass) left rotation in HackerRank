@@ -1,0 +1,36 @@
+
+import math
+import os
+import random
+import re
+import sys
+def rotLeft(a, d):
+   # i=0
+    # Write your code here
+    #if((1<=n and n<=1000000)and (1<=d and d<=n) and(1<=a[i]and a[i]<=1000000)):
+
+     for i in range(0,d):
+        temp=a[0]
+        for j in range(0,n-1):
+            a[j]=a[j+1]
+        a[-1]=temp
+     return(a)
+     
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    first_multiple_input = input().rstrip().split()
+
+    n = int(first_multiple_input[0])
+
+    d = int(first_multiple_input[1])
+
+    a = list(map(int, input().rstrip().split()))
+
+    result = rotLeft(a, d)
+
+    fptr.write(' '.join(map(str, result)))
+    fptr.write('\n')
+
+    fptr.close()
