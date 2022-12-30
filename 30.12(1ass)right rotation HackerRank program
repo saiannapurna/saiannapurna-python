@@ -1,0 +1,19 @@
+#right rotation in normal aproach
+
+n,r=map(int,input().split())
+l=list(map(int,input().split()))
+a=l[n-r:n]
+b=l[0:n-r]
+h=a+b
+for i in h:
+    print(i,end=" ")
+ 
+#right rotation using slicing
+ """   
+n,r=map(int,input().split())
+l=list(map(int,input().split()))
+a=l[n-r:n]
+b=l[0:n-r]
+h=a+b
+for i in h:
+    print(i,end=" ")"""
