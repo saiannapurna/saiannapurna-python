@@ -1,0 +1,28 @@
+#diff of left &right diagonal sum
+
+
+m=int(input())
+n=int(input())
+sum=0
+pop=0
+l=[]
+for i in range(0,m):
+    p=[]
+    for j in range(0,n):
+        u=int(input())
+        p.append(u)
+    l.append(p)
+for i in l:
+    print(i)
+for i in range(m):
+    for j in range(n):
+        if(i+j==n-1):
+           sum=sum+l[i][j]
+print("right diagonal",sum)
+for i in range(m):
+    for j in range(n):
+        if(l[i]==l[j]):
+           pop=pop+l[i][j]
+print("left diagonal",pop)
+print("difference of left and right diagonal's sum are",abs(pop-sum))
+
