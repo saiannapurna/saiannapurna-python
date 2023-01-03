@@ -1,0 +1,19 @@
+#left diagonal sum
+m=int(input())
+n=int(input())
+sum=0
+l=[]
+for i in range(0,m):
+    p=[]
+    for j in range(0,n):
+        u=int(input())
+        p.append(u)
+    l.append(p)
+for i in l:
+    print(i)
+for i in range(m):
+    for j in range(n):
+        if(l[i]==l[j]):
+           sum=sum+l[i][j]
+print(sum)
+        
