@@ -1,0 +1,23 @@
+#max of diagonal
+n=int(input())#no of rows
+m=int(input())#no of columns
+l=[]
+mi=[]
+h=[]
+for i in range(n):
+    r=[]
+    for j in range(m):
+        x=int(input())
+        r.append(x)
+    l.append(r)
+for i in l:
+    print(i)
+for i in range(n):
+    for j in range(m):
+        if(i==j):
+            mi.append(l[i][j])
+        elif(i+j==n-1):
+            h.append(l[i][j])
+p=mi+h
+print(p)
+print(max(p))
