@@ -1,0 +1,23 @@
+#coder test example program
+n=int(input())
+l=[]
+c=0
+for i in range(n):
+    p=[]
+    for j in range(n):
+        x=int(input())
+        p.append(x)
+    l.append(p)
+print("THE MATRIX IS")
+for i in l:
+    print(i)
+for i in range(n):
+    s=0
+    for j in range(n):
+        s=s+l[i][j]
+    if(s==2):
+        c=c+1
+if(c==3):
+    print("CODER TARGET MATRIX")
+else:
+    print("NOT A CODER TARGET MATRIX")
