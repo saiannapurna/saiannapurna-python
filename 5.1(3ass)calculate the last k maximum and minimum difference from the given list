@@ -1,0 +1,15 @@
+#write a program to calculate the last k maximum and minimum difference from the given list
+
+
+
+n=int(input())
+m=[]
+for i in range(n):
+    x=int(input())
+    m.append(x)
+m.sort() 
+print("the sorted list is",m)
+k=int(input("the number of slice index is : "))
+l=m[n-k:n]
+print("the required list", l)
+print("result is",max(l)-min(l))
