@@ -1,0 +1,20 @@
+
+
+#replacing secondary diagonal to k and remaining with 0
+n=int(input("enter size : "))
+l=[]
+for i in range(n):
+    m=[]
+    for j in range(n):
+        x=int(input())
+        m.append(x)
+    l.append(m)
+k=int(input("enter the value to be replaced: "))
+for i in range(n):
+    for j in range(n):
+        if(i+j==n-1):
+            l[i][j]=k
+        else:
+            l[i][j]=0
+for i in l:
+    print(i)
