@@ -1,0 +1,12 @@
+#verify ph number and mail
+n=input("enter phone number : ")
+m=input("enter email : ")
+f=int(n[0])
+c=0
+for i in n:
+    if i.isdigit():
+       c=c+1
+if((m.endswith("@gmail.com") or m.endswith("@yahoo.gmail.com") or m.endswith("@adc.aditya.ac.in"))and c==10 and f>5):
+    print("registration successful")
+else:
+    print("check your details")
