@@ -1,0 +1,21 @@
+#print unique list from given dupilcate list
+
+n=int(input())
+p=[]
+l=list(map(int,input().split()))
+print("Entered list is",l)
+s=set(l)
+s=list(s)
+print("^^^^^^^^^^^^^^^^^^^FIRST METHOD^^^^^^^^^^^^^^")
+for i in s:
+    print(i,end=" ")
+print()
+
+print("|||||||||||||||||| SECOND METHOD|||||||||||||||")
+print()
+for i in l:
+    if i not in p:
+        p.append(i)
+for i in p:
+   print(i,end=" ")
+
