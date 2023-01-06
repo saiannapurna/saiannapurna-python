@@ -1,0 +1,10 @@
+#verify if you use google or yahoo or aditya account
+n=input("enter the account name: ")
+if(n.endswith("@gmail.com")):
+   print("you are using google account")
+elif(n.endswith("@yahoo.com")):
+   print("you are using a yahoo account")
+elif(n.endswith("@adc.aditya.ac.in")):
+   print("you are using aditya educational institute account")
+else:
+    print("account is not in the given list")
