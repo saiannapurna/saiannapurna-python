@@ -1,0 +1,38 @@
+s = input()
+a=b=c=d=e=0
+for i in s:
+   if i.isalnum() :
+        a=a+1
+if(a>0):
+    print("True")
+else:
+    print("False")
+for i in s:
+   if i.isalpha():
+       b=b+1
+if(b>0):
+    print("True")
+else:
+    print("False")
+for i in s:
+   if i.isdigit() :
+       c=c+1
+if(c>0):
+    print("True")
+else:
+    print("False")
+for i in s:
+   if i.islower():
+        d=d+1
+if(d>0):
+    print("True")
+else:
+    print("False")
+for i in s:
+   if i.isupper():
+       e=e+1
+if(e>0):
+    print("True")
+else:
+    print("False")
+
