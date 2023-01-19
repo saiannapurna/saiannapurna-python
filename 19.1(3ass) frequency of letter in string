@@ -1,0 +1,6 @@
+#print of strings in given frequency
+s=input()
+t=int(input())
+for i in s:
+    for j in range(t):
+        print(i,end="")
