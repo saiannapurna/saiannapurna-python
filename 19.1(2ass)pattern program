@@ -1,0 +1,6 @@
+#pattern program
+s=input()
+x=len(s)
+for i in range(0,x):
+    print(s[0:x])
+    x=x-1
