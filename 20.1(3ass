@@ -1,0 +1,12 @@
+#rmove vowels from string
+
+
+
+s=input()
+h=""
+l=['a','e','i','o','u']
+for i in s:
+    if i not in l:
+        h=h+i
+for i in h:
+    print(i,end="")
