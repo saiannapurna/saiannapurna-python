@@ -1,0 +1,16 @@
+#convert aaabbbb int0 3a4b
+s=input()
+c=1
+k=0
+l=len(s)
+res=""
+for i in range(1,l):
+    if(s[i]==s[k]):
+        c=c+1
+    else:
+        res=res+str(c)+s[i-1]
+        k=i
+        c=1
+    if(i==l-1):
+        res=res+str(c)+s[i-1]
+print(res)
