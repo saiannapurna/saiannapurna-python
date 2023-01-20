@@ -1,0 +1,11 @@
+#print missing character and its ascii number
+s=input()
+n=len(s)
+s=sorted(s)
+
+for i in range(1,n):
+    if(ord(s[i])==ord(s[i-1])+1):
+       continue
+    else:
+        print("the charcter missing is",chr(ord(s[i])-1),"and its ascii value is",ord(s[i])-1,end=" ")
+        print()
